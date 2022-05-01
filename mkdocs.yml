@@ -1,0 +1,111 @@
+site_name: Languages de Programmations
+site_url: https://ens-fr.gitlab.io/languages_de_programmation
+edit_uri: tree/main/docs/
+site_description: Les languages de programmations
+docs_dir: docs
+copyright: |
+    Copyright © <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank" rel="noopener"><img src="images/copyright.png"></a> </a> 2022 <a href="https://github.com/OKONORE" target="_blank" rel="noopener"><b>Mathieu THOS<b/></a>
+# Modifier le copyright à votre goût
+
+nav:
+    - Introduction: index.md
+    - Le "Python": python.md
+    - Le "lua": lua.md
+    - Le "Javascript": javascript.md
+    - Lisez Moi: lisez_moi.md
+
+                                    # JUSTIFICATIONS
+theme:
+    name: material
+    font: false                     # RGPD ; pas de fonte Google
+    language: fr                    # français
+    logo: images/dark_logo.png
+    favicon: images/light_logo.png
+    palette:                        # Palettes de couleurs jour/nuit
+      - media: "(prefers-color-scheme: light)"
+        scheme: default
+        primary: green
+        accent: green
+        toggle:
+            icon: material/weather-sunny
+            name: Passer au mode nuit
+      - media: "(prefers-color-scheme: dark)"
+        scheme: slate
+        primary: green
+        accent: green
+        toggle:
+            icon: material/weather-night
+            name: Passer au mode jour
+    features:
+        - navigation.instant
+        - navigation.tabs
+        - navigation.top
+        - toc.integrate
+        - header.autohide
+
+plugins:
+    - mkdocs-video:                   # plugin pour ajouter des videos
+        video_autoplay: False
+    - search
+markdown_extensions:
+    - meta
+    - abbr
+
+    - def_list                      # Les listes de définition.
+    - attr_list                     # Un peu de CSS et des attributs HTML.
+    - footnotes                     # Notes[^1] de bas de page.  [^1]: ma note.
+    - admonition                    # Blocs colorés  !!! info "ma remarque"
+    - pymdownx.details              #   qui peuvent se plier/déplier.
+    - pymdownx.caret                # Passage ^^souligné^^ ou en ^exposant^.
+    - pymdownx.mark                 # Passage ==surligné==.
+    - pymdownx.tilde                # Passage ~~barré~~ ou en ~indice~.
+    - pymdownx.highlight:           # Coloration syntaxique du code
+        auto_title: true
+        auto_title_map:
+            "Python": "🐍 Script Python"
+            "Lua" : "💻 Script LUA"
+            "Javascript": "📄 Script JavaScript"
+            "Python Console Session": "🐍 Console Python"
+            "Text Only": "📋 Texte"
+            "E-mail": "📥 Entrée"
+            "Text Output": "📤 Sortie"
+    - pymdownx.inlinehilite         # pour  `#!python  <python en ligne>`
+    - pymdownx.snippets             # Inclusion de fichiers externe.
+    - pymdownx.tasklist:            # Cases à cocher  - [ ]  et - [x]
+        custom_checkbox:    true   #   avec cases d'origine
+        clickable_checkbox: false    #   et cliquables.
+    - pymdownx.tabbed:              # Volets glissants.  === "Mon volet"
+        alternate_style: true 
+    - pymdownx.keys:                # Touches du clavier.  ++ctrl+d++
+        separator: "\uff0b"
+    - pymdownx.emoji:               # Émojis  :boom:
+        emoji_index:     !!python/name:materialx.emoji.twemoji
+        emoji_generator: !!python/name:materialx.emoji.to_svg
+
+    - pymdownx.superfences:
+        custom_fences:
+          - name: mermaid
+            class: mermaid
+            format: !!python/name:pymdownx.superfences.fence_code_format
+
+
+
+    - pymdownx.arithmatex:
+        generic: true
+    - toc:
+        permalink: ⚓︎
+        toc_depth: 3
+
+extra:
+    social:
+        - icon: fontawesome/brands/github # ou autre
+          link: https://github.com/OKONORE
+        - icon: fontawesome/brands/python # ou autre
+          link: http://www.france-ioi.org/user/perso.php?sLogin=okonore
+
+extra_javascript:
+  - xtra/mathjax.js                    # MathJax
+  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
+
+extra_css:
+  - xtra/ajustements.css                      # ajustements
