@@ -7,7 +7,7 @@ copyright: |
 # Modifier le copyright à votre goût
 
 nav:
-    - Introduction: index.mdLes Languages de Programmations 
+    - Introduction: index.md
     - Le Python: python.md
     - Le lua: lua.md
     - Le Javascript: javascript.md
