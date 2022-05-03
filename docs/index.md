@@ -69,6 +69,6 @@ Dans ce site réalisé entièrement en Markdown avec l'outil Mkdocs[^4], nous ve
 Nous verrons donc:
 [^4]: [Mkdocs](https://www.mkdocs.org/)
 
-1. [Le "Python"](pyhton.md){ .md-button }
+1. [Le "Python"](python.md){ .md-button }
 2. [Le "lua"](lua.md){ .md-button }
 3. [Le "JavaScript"](javascript.md){ .md-button }
