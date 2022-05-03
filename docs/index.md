@@ -49,7 +49,7 @@ __*source: Wikipedia[^2]*__
 ### Un éditeur
 
 ???+note "Defintion"
-    Un [éditeur de code source](https://fr.wikipedia.org/wiki/%C3%89diteur_de_code_source) est un programme d'édition de texte spécialement conçu pour l'**édition du code source d'un programme informatique**. Il peut s'agir d'une application autonome ou intégrée à un environnement de développement intégré (IDE) ou à un navigateur Web. Un éditeur de code source est un outil de programmation fondamental, car le travail fondamental des programmeurs est d'écrire et de modifier le code source.
+    Un [éditanguages de programmationeur de code source](https://fr.wikipedia.org/wiki/%C3%89diteur_de_code_source) est un programme d'édition de texte spécialement conçu pour l'**édition du code source d'un programme informatique**. Il peut s'agir d'une application autonome ou intégrée à un environnement de développement intégré (IDE) ou à un navigateur Web. Un éditeur de code source est un outil de programmation fondamental, car le travail fondamental des programmeurs est d'écrire et de modifier le code source.
 
 
 #### VsCodium
@@ -69,6 +69,6 @@ Dans ce site réalisé entièrement en Markdown avec l'outil Mkdocs[^4], nous ve
 Nous verrons donc:
 [^4]: [Mkdocs](https://www.mkdocs.org/)
 
-1. [Le "Python"](python.md){ .md-button }
-2. [Le "lua"](lua.md){ .md-button }
-3. [Le "JavaScript"](javascript.md){ .md-button }
+1. [Le "Python"](){ .md-button }
+2. [Le "lua"](){ .md-button }
+3. [Le "JavaScript"](){ .md-button }
