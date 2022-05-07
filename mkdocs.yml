@@ -50,6 +50,7 @@ plugins:
     - mkdocs-video:                   # plugin pour ajouter des videos
         video_autoplay: False
     - search
+    - git-revision-date
 markdown_extensions:
     - meta
     - abbr
