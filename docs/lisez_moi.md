@@ -29,10 +29,13 @@
         - lien
         - logo
 
-## .gitlab-ci.yml
+## ci.yml
 
+- Modification pour permettre l'hébergement
+    - voir [Mise en ligne](mise_en_ligne.md)
 - script
     - ajout de "python -m pip install mkdocs-video"
+
 
 ## /scripts
 
