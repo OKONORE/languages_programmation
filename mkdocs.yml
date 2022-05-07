@@ -98,9 +98,6 @@ markdown_extensions:
 
 extra:
     social:
-        cards_color:
-            fill: "#268212"
-            text: "#FFFFFF"
         - icon: fontawesome/brands/github # ou autre
           link: https://github.com/OKONORE
         - icon: fontawesome/brands/python # ou autre
