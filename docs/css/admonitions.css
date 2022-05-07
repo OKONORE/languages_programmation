@@ -1,10 +1,10 @@
 @keyframes flame {
     100% {
-    transform: rotate(1turn)
+    transform: rotate(2turn)
     }
 }
 .flame {
-    animation: flame 1000ms infinite;
+    animation: flame 2000ms infinite;
     color:firebrick
 }
 
@@ -17,13 +17,33 @@
     }
     .md-typeset .savoir > .admonition-title,
     .md-typeset .savoir > summary {
-    background-color: rgba(255, 0, 0, 0.459);
+    background-color: rgba(255, 0, 0, 0.5);
     border-color: rgb(255, 0, 0);
     }
     .md-typeset .savoir > .admonition-title::before,
     .md-typeset .savoir > summary::before {
     background-color: rgb(255, 166, 34);
-    animation: flame 1000ms infinite;
+    animation: flame 2000ms infinite;
     -webkit-mask-image: var(--md-admonition-icon--savoir);
             mask-image: var(--md-admonition-icon--savoir);
+    }
+
+
+:root {
+    --md-admonition-icon--code: url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"><!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M224 128L224 0H48C21.49 0 0 21.49 0 48v416C0 490.5 21.49 512 48 512h288c26.51 0 48-21.49 48-48V160h-127.1C238.3 160 224 145.7 224 128zM154.1 353.8c7.812 7.812 7.812 20.5 0 28.31C150.2 386.1 145.1 388 140 388s-10.23-1.938-14.14-5.844l-48-48c-7.812-7.812-7.812-20.5 0-28.31l48-48c7.812-7.812 20.47-7.812 28.28 0s7.812 20.5 0 28.31L120.3 320L154.1 353.8zM306.1 305.8c7.812 7.812 7.812 20.5 0 28.31l-48 48C254.2 386.1 249.1 388 244 388s-10.23-1.938-14.14-5.844c-7.812-7.812-7.812-20.5 0-28.31L263.7 320l-33.86-33.84c-7.812-7.812-7.812-20.5 0-28.31s20.47-7.812 28.28 0L306.1 305.8zM256 0v128h128L256 0z"/></svg>')
+    }
+    .md-typeset .admonition.code,
+    .md-typeset details.code {
+    border-color: rgb(0, 0, 0);
+    }
+    .md-typeset .code > .admonition-title,
+    .md-typeset .code > summary {
+    background-color: rgba(0, 0, 0, 0.5);
+    border-color: rgb(0, 0, 0);
+    }
+    .md-typeset .code > .admonition-title::before,
+    .md-typeset .code > summary::before {
+    background-color: rgb(141, 78, 78);
+    -webkit-mask-image: var(--md-admonition-icon--code);
+            mask-image: var(--md-admonition-icon--code);
     }
