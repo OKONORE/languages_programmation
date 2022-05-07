@@ -44,7 +44,6 @@
     - voir [Mise en ligne](mise_en_ligne.md)
 - script
     - ajout de ```python -m pip install mkdocs-video```
-    - ajout de ```pip install mkdocs-git-revision-date-plugin```
 
 ## docs/scripts
 

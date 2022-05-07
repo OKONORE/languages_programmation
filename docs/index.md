@@ -71,7 +71,6 @@ Nous verrons donc:
 
 1. [🐍 Le Python](python.md){ .md-button }
 2. [💻 Le lua](lua.md){ .md-button }
-3. [🧮 Le Javascript](javascript.md){ .md-button }
 
 ## Infos suppmlémentaires
 

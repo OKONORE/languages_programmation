@@ -5,14 +5,13 @@ repo_name: OKONORE Site NSI
 site_description: Les languages de programmations
 docs_dir: docs
 copyright: |
-    Copyright © <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank" rel="noopener"><img src="images/copyright.png"></a> </a> 2022 <a href="https://github.com/OKONORE" target="_blank" rel="noopener"><b>Mathieu THOS<b/></a>
+    Copyright © <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank" rel="noopener"><img src="../images/copyright.png"></a> </a> 2022 <a href="https://github.com/OKONORE" target="_blank" rel="noopener"><b>Mathieu THOS<b/></a>
 # Modifier le copyright à votre goût
 
 nav:
     - 📄 Introduction: index.md
     - 🐍 Le Python: python.md
     - 💻 Le lua: lua.md
-    - 🧮 Le Javascript: javascript.md
     - ⚙️ Mise en ligne: mise_en_ligne.md
     - 🔨 Lisez moi: lisez_moi.md
 
@@ -51,7 +50,6 @@ plugins:
     - mkdocs-video:                   # plugin pour ajouter des videos
         video_autoplay: False
     - search
-    - git-revision-date
 markdown_extensions:
     - meta
     - abbr
@@ -68,7 +66,6 @@ markdown_extensions:
         auto_title_map:
             "Python": "🐍 Script Python"
             "Lua" : "💻 Script LUA"
-            "Javascript": "📄 Script JavaScript"
             "Python Console Session": "🐍 Console Python"
             "Text Only": "📋 Texte"
             "E-mail": "📥 Entrée"
@@ -85,7 +82,6 @@ markdown_extensions:
     - pymdownx.emoji:               # Émojis  :boom:
         emoji_index:     !!python/name:materialx.emoji.twemoji
         emoji_generator: !!python/name:materialx.emoji.to_svg
-
     - pymdownx.superfences:
         custom_fences:
           - name: mermaid
@@ -110,4 +106,4 @@ extra_javascript:
   - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
 
 extra_css:
-  - xtra/ajustements.css                      # ajustements
+  - css/admonitions.css                      # fichiers CSS des admonitions
