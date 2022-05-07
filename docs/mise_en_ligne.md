@@ -9,7 +9,7 @@
 
 ### Hébergement web
 
-!!! caution "Hébergement web"
+!!!Quote "Hébergement web"
     Héberger un site sur un serveur est la solution la plus pratiquée dans le monde, **mais** celà à un coût, il faut pouvoir louer une machine pour héberger un site, louer un nom de domaine et nécéssite des connaissances avancées dans la gestions de serveurs
 
 ### Github/Gitlab

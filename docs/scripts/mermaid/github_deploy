@@ -1,8 +1,8 @@
 flowchart LR
     VSCodium & VSCode & Atom & Sublimetext -->|Commit| DepotGithub[(Dépôt github)]
-    DepotGithub ==> Deploy{{Deploy}}
+    DepotGithub ==> Push{{Push}}
 
-    Deploy -.-> Erreur>Erreur du Deploy] & Succes>Succès du Deploy]
+    Push -.- Erreur>Erreur du Push] & Succes>Succès du Push]
 
     subgraph erreur [Erreur du déploiement]
         Erreur --> Erreur1{{Affichage moteur Markdown de Github}} & Erreur2{{Pas de fonctions Mkdocs}} 
@@ -10,5 +10,9 @@ flowchart LR
 
     subgraph succes [Succès du déploiement]
         Succes --> Succes1{{ajout branche gh-pages dans le dépôt}} & Succes2{{Build de la page en HTML}} & Succes3{{Fonctions Mkdocs et plugins disponibles}}
-        Succes1 & Succes2 & Succes3 --> Dispo[Site disponible]
+        Succes1 & Succes2 & Succes3 --> Dispo((Site disponible))
     end    
+
+style Erreur fill:#BF0000,stroke:#000,stroke-width:4px,color:#fff
+style Succes fill:#09BF00,stroke:#000,stroke-width:4px,color:#fff
+style Dispo stroke:#000,stroke-width:4px
