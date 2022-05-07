@@ -77,6 +77,6 @@ Nous verrons donc:
 Ici vous pourrez voir quelles sont le modification apportées en détails sur le site ainsi que la méthode de mise en ligne du site
 
 1. [⚙️ Mise en ligne](mise_en_ligne.md){ .md-button }
-2. [🔨 Lisez Moi](lisez_moi.md){ .md-button }
+2. [🔨 Modifications](modifications.md){ .md-button }
 
 

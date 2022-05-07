@@ -2,7 +2,7 @@ flowchart LR
     VSCodium & VSCode & Atom & Sublimetext -->|Commit| DepotGithub[(Dépôt github)]
     DepotGithub ==> Push{{Push}}
 
-    Push -.- Erreur>Erreur du Push] & Succes>Succès du Push]
+    Push -.- Erreur>Erreur Pipeline] & Succes>Succès Pipeline]
 
     subgraph erreur [Erreur du déploiement]
         Erreur --> Erreur1{{Affichage moteur Markdown de Github}} & Erreur2{{Pas de fonctions Mkdocs}} 

@@ -64,3 +64,4 @@
 ???+code "CSS"
     - Admonitions
         - ajout de l'admonitions "code"
+        - ajout de l'admonitions "savoir"

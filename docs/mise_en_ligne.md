@@ -20,7 +20,15 @@
 
 #### Fonctionnement Github
 
-Ce site est hébergé sur github, car, depuis un changement de politique de Gitlab, une carte bancaire doit être entrée pour pouvoir bénificier de l'hébergement de Gitlab.
+!!!info "Gitlab"
+    Depuis un changement de politique de Gitlab, une carte bancaire doit être entrée pour pouvoir bénificier de l'hébergement de Gitlab.
+
+
+Tout d'abord, il vous faut un fichiers mkdocs valide, que vous enverrez sur le dépot github depuis votre interface de développement. Ensuite Github lancera les fonctions dans le fichier d'intégration continue, et si tout se passe bien, le site sera publié.
+
+
+
+
 
 
 ```mermaid
@@ -29,3 +37,4 @@ Ce site est hébergé sur github, car, depuis un changement de politique de Gitl
 ```mermaid
 --8<-- "docs/scripts/mermaid/branches_github"
 ```
+
