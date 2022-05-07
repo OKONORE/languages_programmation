@@ -23,3 +23,6 @@ Ce site est hébergé sur github, car, depuis un changement de politique de Gitl
 ```mermaid
 --8<-- "docs/scripts/mermaid/github_deploy"
 ```
+```mermaid
+--8<-- "docs/scripts/mermaid/branches_github"
+```

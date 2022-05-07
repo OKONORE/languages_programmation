@@ -1,0 +1,5 @@
+flowchart LR
+    depot[(Dépôt Github)] -.- Main & gh-pages
+    Main --- main1[Fichiers Mkdocs] -.- main2[pas la page web]
+    gh-pages --- gh-pages1[Fichiers HTML]
+    Main ==build==> gh-pages 
