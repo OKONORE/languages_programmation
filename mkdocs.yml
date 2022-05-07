@@ -23,7 +23,8 @@ theme:
     language: fr                    # français
     logo: images/dark_logo.png
     favicon: images/light_logo.png
-    repo: images/github_logo.png
+    icon:
+        repo: images/github_logo.png
     palette:                        # Palettes de couleurs jour/nuit
       - media: "(prefers-color-scheme: light)"
         scheme: default
