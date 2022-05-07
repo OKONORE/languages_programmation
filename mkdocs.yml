@@ -24,7 +24,7 @@ theme:
     logo: images/dark_logo.png
     favicon: images/light_logo.png
     icon:
-        repo: images/github_logo.png
+        repo: fontawesome/brands/github
     palette:                        # Palettes de couleurs jour/nuit
       - media: "(prefers-color-scheme: light)"
         scheme: default
