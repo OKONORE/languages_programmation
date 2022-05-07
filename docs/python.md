@@ -1,4 +1,4 @@
-# Le language "Python"
+# Le language 🐍 Python
 
 ## Définition
 

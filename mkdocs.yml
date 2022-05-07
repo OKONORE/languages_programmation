@@ -7,12 +7,12 @@ copyright: |
 # Modifier le copyright à votre goût
 
 nav:
-    - Introduction: index.md
-    - Le Python: python.md
-    - Le lua: lua.md
-    - Le Javascript: javascript.md
-    - Mise en ligne: mise_en_ligne.md
-    - Lisez Moi: lisez_moi.md
+    - 📄 Introduction: index.md
+    - 🐍 Le Python: python.md
+    - 💻 Le lua: lua.md
+    - 🧮 Le Javascript: javascript.md
+    - ⚙️ Mise en ligne: mise_en_ligne.md
+    - 🔨 Lisez Moi: lisez_moi.md
 
                                     # JUSTIFICATIONS
 theme:
