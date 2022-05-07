@@ -11,7 +11,7 @@ nav:
     - Le Python: python.md
     - Le lua: lua.md
     - Le Javascript: javascript.md
-    - Lisez Moi: mise_en_ligne.md
+    - Mise en ligne: mise_en_ligne.md
     - Lisez Moi: lisez_moi.md
 
                                     # JUSTIFICATIONS
@@ -102,6 +102,9 @@ extra:
           link: https://github.com/OKONORE
         - icon: fontawesome/brands/python # ou autre
           link: http://www.france-ioi.org/user/perso.php?sLogin=okonore
+        cards:
+            fill: "#268212"
+            text: "#FFFFFF"
 
 extra_javascript:
   - xtra/mathjax.js                    # MathJax
