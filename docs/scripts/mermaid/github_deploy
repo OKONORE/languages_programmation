@@ -15,6 +15,4 @@ flowchart LR
         Succes --> Succes1{{ajout branche gh-pages dans le dépôt}}
         Succes --> Succes2{{Build de la page en HTML}}
         Succes --> Succes3{{Fonctions Mkdocs et plugins disponibles}}
-    end
-
-    
+    end    
