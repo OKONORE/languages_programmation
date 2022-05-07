@@ -49,7 +49,7 @@ __*source: Wikipedia[^2]*__
 ### Un éditeur
 
 ???+note "Defintion"
-    Un [éditanguages de programmationeur de code source](https://fr.wikipedia.org/wiki/%C3%89diteur_de_code_source) est un programme d'édition de texte spécialement conçu pour l'**édition du code source d'un programme informatique**. Il peut s'agir d'une application autonome ou intégrée à un environnement de développement intégré (IDE) ou à un navigateur Web. Un éditeur de code source est un outil de programmation fondamental, car le travail fondamental des programmeurs est d'écrire et de modifier le code source.
+    Un [éditeur de code source](https://fr.wikipedia.org/wiki/%C3%89diteur_de_code_source) est un programme d'édition de texte spécialement conçu pour l'**édition du code source d'un programme informatique**. Il peut s'agir d'une application autonome ou intégrée à un environnement de développement intégré (IDE) ou à un navigateur Web. Un éditeur de code source est un outil de programmation fondamental, car le travail fondamental des programmeurs est d'écrire et de modifier le code source.
 
 
 #### VsCodium
@@ -58,7 +58,7 @@ __*source: Wikipedia[^2]*__
 
 |Logiciel|Image|Dépôt Github|Contribueteurs|
 |:----:|:----:|:----:|:----:|
-| [VsCodium](https://vscodium.com/) | ![Vscodium](images/vscodium.png) | [Github](https://github.com/VSCodium/vscodium) | [Contributeurs](https://github.com/VSCodium/vscodium/graphs/contributors) |
+| [VsCodium](https://vscodium.com/) | ![image](images/vscodium.png){width:5%} | [Github](https://github.com/VSCodium/vscodium) | [Contributeurs](https://github.com/VSCodium/vscodium/graphs/contributors) |
 
 > ^^Pour plus de précision VsCodium, aller sur l'excellent site de monsieur Chambon  à ce propos[^3]^^
 [^3]: [Choisir un éditeur: Mr.Chambon](https://lyc-84-bollene.gitlab.io/chambon/2-%C3%89diteurs/0-index/)

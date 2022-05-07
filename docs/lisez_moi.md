@@ -2,6 +2,7 @@
 
 ## mkdocs.yml
 
+### Infos site
 - Nom du site
 - URL du site
 - Description du Site
@@ -14,29 +15,37 @@
     - Couleurs
     - Logo onglet
     - logo sur le site
-- Ajout du plugin video "[mkdocs_video](https://github.com/soulless-viewer/mkdocs-video)"
-- Ajout de la barre de recherche
-- Modifications d'extension 
-    - "auto_title_map"
-        - Noms pour le LUA, Javascript
-    - "pymdownx.tasklist"
-       - custom_checkbox:    true
-       - clickable_checkbox: false
 - Social
     - github
         - lien
     - FranceIOI
         - lien
         - logo
+- Ajout du dépôt github
+    - Changement du logo du dépôt sur le site (github logo)
+
+### Plugins
+- Ajout du plugin video "[mkdocs_video](https://github.com/soulless-viewer/mkdocs-video)"
+    - > Plugin permettant d'ajouter des vidéos
+- Ajout du plugin video "[mkdocs-git-revision-date-plugin](https://github.com/zhaoterryy/mkdocs-git-revision-date-plugin)"
+    - > Plugin permettant d'ajouter la date de modification de la page en bas de la page
+- Ajout de la barre de recherche
+### Options Plugins
+- Modifications d'extension 
+    - "auto_title_map"
+        - Noms pour le LUA, Javascript
+    - "pymdownx.tasklist"
+       - custom_checkbox:    true
+       - clickable_checkbox: false
 
 ## ci.yml
-
+- passage du modèle [gitlab à un modèle github](https://squidfunk.github.io/mkdocs-material/publishing-your-site/#with-github-actions)
 - Modification pour permettre l'hébergement
     - voir [Mise en ligne](mise_en_ligne.md)
 - script
-    - ajout de "python -m pip install mkdocs-video"
+    - ajout de ```python -m pip install mkdocs-video```
+    - ajout de ```pip install mkdocs-git-revision-date-plugin```
 
-
-## /scripts
+## docs/scripts
 
 - Tout les scripts affichés sont stockés dans ```docs/scripts```
