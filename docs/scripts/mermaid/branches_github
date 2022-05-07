@@ -1,5 +1,16 @@
 flowchart LR
-    depot[(Dépôt Github)] -.- Main & gh-pages
-    Main --- main1[Fichiers Mkdocs] -.- main2[pas la page web]
-    gh-pages --- gh-pages1[Fichiers HTML]
-    Main ==build==> gh-pages 
+    
+    depot[(Dépôt Github)] -.- main & ghp
+    
+    subgraph main [Branche Main]
+    Main -.- main1[Fichiers Mkdocs]
+    Main --Fichiers--> r2[ /root ] & d2[ /docs ]
+    end
+    subgraph ghp [Branche gh-pages]
+        gh-pages -.- gh-pages1[Fichiers HTML]
+        gh-pages --Fichiers--> r1[ /root ] & d1[ /docs ]
+    end
+    main ===> Build ===> ghp
+
+    d1 & d2 & r2 --> non[Inutilisé pour le site]
+    r1 --> oui[Utilisé pour le site]
