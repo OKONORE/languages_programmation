@@ -12,7 +12,7 @@
 
 
 
-```lua linenums="1"
---8<-- "docs/scripts/python.py"
+```python linenums="1"
+--8<-- "docs/scripts/python/python.py"
 ```
 
