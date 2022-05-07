@@ -55,7 +55,6 @@ plugins:
 markdown_extensions:
     - meta
     - abbr
-
     - def_list                      # Les listes de définition.
     - attr_list                     # Un peu de CSS et des attributs HTML.
     - footnotes                     # Notes[^1] de bas de page.  [^1]: ma note.

@@ -15,4 +15,11 @@ Héberger un site sur un serveur est la solution la plus pratiquée dans le mond
 Voici le tutoriel de Mr.Chambon[^1]
 [^1]: [Le tutoriel](https://ens-fr.gitlab.io/mkdocs/gitlab-mkdocs/)
 
+#### Fonctionnement Github
 
+Ce site est hébergé sur github, car, depuis un changement de politique de Gitlab, une carte bancaire doit être entrée pour pouvoir bénificier de l'hébergement de Gitlab.
+
+
+```mermaid
+--8<-- "docs/scripts/mermaid/github_deploy"
+```

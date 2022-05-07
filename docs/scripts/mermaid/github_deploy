@@ -1,0 +1,20 @@
+flowchart LR
+    Vscodium[VSCodium] -->|Commit| DepotGithub[(Dépôt github)]
+    Vscode[VSCode] -->|Commit| DepotGithub
+    DepotGithub ==> Deploy{{Deploy}}
+
+    Deploy -.-> Erreur>Erreur du Deploy]
+    Deploy -.-> Succes>Succès du Deploy]
+
+    subgraph erreur [Erreur du déploiement]
+        Erreur --> Erreur1{{Affichage moteur Markdown de Github}}
+        Erreur --> Erreur2{{Pas de fonctions Mkdocs}}
+    end
+
+    subgraph succes [Succès du déploiement]
+        Succes --> Succes1{{ajout branche gh-pages dans le dépôt}}
+        Succes --> Succes2{{Build de la page en HTML}}
+        Succes --> Succes3{{Fonctions Mkdocs et plugins disponibles}}
+    end
+
+    
