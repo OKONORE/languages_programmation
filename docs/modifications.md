@@ -15,7 +15,7 @@
     - Nav bar
     - Thème du site 
         - Couleurs
-        - Logo onglet
+        - Logo sur l'onglet
         - logo sur le site
     - Social
         - github
@@ -58,10 +58,12 @@
 
 ???+code "docs/scripts"
     - Tout les scripts affichés sont stockés dans ```docs/scripts```
+        - Scripts mermaid dans ```docs/scripts/mermaid```
+        - Scripts python dans ```docs/scripts/python```
 
-## CSS
+## docs/css
 
-???+code "CSS"
+???+code "docs/css"
     - Admonitions
-        - ajout de l'admonitions "code"
-        - ajout de l'admonitions "savoir"
+        - ajout de l'admonition "code"
+        - ajout de l'admonition "savoir"

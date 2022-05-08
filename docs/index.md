@@ -54,29 +54,32 @@ __*source: Wikipedia[^2]*__
 
 #### VsCodium
 
-[VsCodium](https://vscodium.com/) est la version libre et open source de [Visual Studio Code](https://code.visualstudio.com/)
+> [VsCodium](https://vscodium.com/) est la version libre et open source de [Visual Studio Code](https://code.visualstudio.com/)
 
 |Logiciel|Image|Dépôt Github|Contribueteurs|
 |:----:|:----:|:----:|:----:|
 | [VsCodium](https://vscodium.com/) | ![Vscodium](images/vscodium.png) | [Github](https://github.com/VSCodium/vscodium) | [Contributeurs](https://github.com/VSCodium/vscodium/graphs/contributors) |
 
-> ^^Pour plus de précision VsCodium, aller sur l'excellent site de monsieur Chambon  à ce propos[^3]^^
-[^3]: [Choisir un éditeur: Mr.Chambon](https://lyc-84-bollene.gitlab.io/chambon/2-%C3%89diteurs/0-index/)
+!!!savoir "Tutoriel"
+    ^^Pour plus de précision sur VSCodium, aller sur l'excellent site de [Monsieur Chambon](https://lyc-84-bollene.gitlab.io/chambon/)  à ce propos[^3]^^
+    [^3]: [Choisir un éditeur: Mr.Chambon](https://lyc-84-bollene.gitlab.io/chambon/2-%C3%89diteurs/0-index/)
 
 ## Ce que nous allons voir 
 
-Dans ce site réalisé entièrement en Markdown avec l'outil Mkdocs[^4], nous verrons quelques exemples de languages de programmation ainsi que leur utilisation et leur utilité.
-Nous verrons donc:
-[^4]: [Mkdocs](https://www.mkdocs.org/)
+!!!note "Langages"
+    Dans ce site réalisé entièrement en Markdown avec l'outil Mkdocs[^4], nous verrons quelques exemples de languages de programmation ainsi que leur utilisation et leur utilité.
+    Nous verrons donc:
+    [^4]: [Mkdocs](https://www.mkdocs.org/)
 
-1. [🐍 Le Python](python.md){ .md-button }
-2. [💻 Le lua](lua.md){ .md-button }
+    1. [🐍 Le Python](python.md){ .md-button }
+    2. [💻 Le lua](lua.md){ .md-button }
 
-## Infos suppmlémentaires
+## Infos supplémentaires
 
-Ici vous pourrez voir quelles sont le modification apportées en détails sur le site ainsi que la méthode de mise en ligne du site
+!!!note "Infos supplémentaires"
+    Ici vous pourrez voir quelles sont le modification apportées en détails sur le site ainsi que la méthode de mise en ligne du site
 
-1. [⚙️ Mise en ligne](mise_en_ligne.md){ .md-button }
-2. [🔨 Modifications](modifications.md){ .md-button }
+    1. [⚙️ Mise en ligne](mise_en_ligne.md){ .md-button }
+    2. [🔨 Modifications](modifications.md){ .md-button }
 
 
