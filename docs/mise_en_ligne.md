@@ -30,7 +30,6 @@ Tout d'abord, il vous faut un fichiers mkdocs valide, que vous enverrez sur le d
 
 
 
-
 ```mermaid
 --8<-- "docs/scripts/mermaid/github_deploy"
 ```
