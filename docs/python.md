@@ -20,17 +20,22 @@
 
 !!!Note "Ecrire `helloworld`"
 
-    === !!!Success "Réussite"
+    === "Code 1"
+    !!!Success "Réussite"
             ```python linenums="1"
             --8<-- "docs/scripts/python/helloworld/helloworld1"
             ```
             Voici ici comment écrire `helloworld` dans la console. La fonction `print` sert à écrire dans la console ce qu'elle contient. Ici elle contient `"hello world"` qui est une chaîne de caractères.
-    === !!!failure "Erreur"
+    
+    === "Code 2"
+        !!!failure "Erreur"
             ```python linenums="1"
             --8<-- "docs/scripts/python/helloworld/helloworld2"
             ```
             Ici l'erreur est que les guillemets ont été oubliées, et donc, essaye d'écrire la variable `hello` et `world`. Celles-ci n'ayant pas été définies, rien ne ressort du print et le programme plante.
-    === !!!failure "Erreur"
+            
+    === "Code 2"
+        !!!failure "Erreur"
             ```python linenums="1"
             --8<-- "docs/scripts/python/helloworld/helloworld3"
             ```
