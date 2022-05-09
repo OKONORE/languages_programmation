@@ -75,6 +75,6 @@
 
 - Ici nous allons voir comment transformer cette formule en un code python, qui nous renverras le résulat dans la console
 
-```
---8<-- "docs/mathjax/maths.js"
-```
+$$
+\Delta = b^2-4ac
+$$
