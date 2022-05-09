@@ -67,3 +67,14 @@
             --8<-- "docs/scripts/python/boucles/boucle3.py"
             ```
             Ici l'erreur est que le nom de la variable de la boucle n'est pas la même que celle dans le print, donc la variable n'existe même pas.
+
+### Mathématiques
+
+!!!note "Mathématiques"
+    python est aussi un outils permettant de faire des matématiques, il peut être parfois plus simple, d'utiliser python pour des formules répétitives, afin de réaliser instantanément les calculs.
+
+- Ici nous allons voir comment transformer cette formule en un code python, qui nous renverras le résulat dans la console
+
+```
+--8<-- "docs/mathjax/maths.js"
+```
