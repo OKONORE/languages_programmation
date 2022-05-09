@@ -11,7 +11,7 @@
 - [X] Orientée Objet
 
 !!!tldr "Info"
-    Nous présentons rapidement le pyton afin d'avoir un comparatif avec les langages qui seront présentés après
+    Nous présentons rapidement le pyton afin d'avoir un comparatif avec les langages qui seront présentés après.
 ## Exemples de codes
 
 ### HelloWorld
