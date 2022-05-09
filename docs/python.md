@@ -23,21 +23,21 @@
     === "Code 1"
     !!!Success "Réussite"
             ```python linenums="1"
-            --8<-- "docs/scripts/python/helloworld/helloworld1"
+            --8<-- "docs/scripts/python/helloworld/helloworld1.py"
             ```
             Voici ici comment écrire `helloworld` dans la console. La fonction `print` sert à écrire dans la console ce qu'elle contient. Ici elle contient `"hello world"` qui est une chaîne de caractères.
     
     === "Code 2"
         !!!failure "Erreur"
             ```python linenums="1"
-            --8<-- "docs/scripts/python/helloworld/helloworld2"
+            --8<-- "docs/scripts/python/helloworld/helloworld2.py"
             ```
             Ici l'erreur est que les guillemets ont été oubliées, et donc, essaye d'écrire la variable `hello` et `world`. Celles-ci n'ayant pas été définies, rien ne ressort du print et le programme plante.
-            
+
     === "Code 2"
         !!!failure "Erreur"
             ```python linenums="1"
-            --8<-- "docs/scripts/python/helloworld/helloworld3"
+            --8<-- "docs/scripts/python/helloworld/helloworld3.py"
             ```
             Ici l'erreur est que les parenthèses ont été oublié, et une fonction en a toujours, l'interpréteur ne comprend donc pas que vient faire ce print devant une chaîne de caractères.
 
