@@ -1,3 +1,3 @@
 # le langage 💻 Le lua
 
-[vscode](index.md/#vscodium) 
+[vscode](index.md#vscodium) 
