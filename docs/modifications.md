@@ -13,6 +13,7 @@
         - Image de copyright (ne fonctionne que sur la page Index)
         - Lien de redirection sur mon nom
     - Nav bar
+        - Ajout de `- navigation.tracking` [documentation](https://squidfunk.github.io/mkdocs-material/setup/setting-up-navigation/#anchor-tracking)
     - Thème du site 
         - Couleurs
         - Logo sur l'onglet
