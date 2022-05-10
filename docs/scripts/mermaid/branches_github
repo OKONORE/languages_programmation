@@ -1,6 +1,6 @@
 flowchart LR
     
-    depot[(Dépôt Github)] -.- main & ghp
+    depot[(Dépôt Github)] --- main & ghp
     
     subgraph main [Branche Main]
     Main{Main} -.- main1{{Fichiers Mkdocs}}

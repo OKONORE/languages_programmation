@@ -15,7 +15,7 @@
     ???+example "Exemples"
         === "OVH"
 
-            ![ovh logo](images/ovh.png)
+            ![ovh logo](images/ovh.png){ width=200 }
             > [OVH](https://www.ovhcloud.com/fr/) est est une entreprise française. Elle pratique initialement de l'hébergement de serveur, et est un fournisseur d'accès à Internet (FAI), puis opérateur de télécommunications pour les entreprises. Elle se développe, à la fin des années 2010, dans le cloud computing (informatique en nuage).
             **Source: Wikipedia[^3]**
             [^3]: [Wikipedia: OVHcloud](https://fr.wikipedia.org/wiki/OVHcloud)
@@ -24,11 +24,11 @@
 
             |HÉBERGEMENT PERSO|HÉBERGEMENT PRO|HÉBERGEMENT PERFORMANCE|HÉBERGEMENT CLOUD WEB|
             |:---:|:---:|:---:|:---:|
-            | ![offre 1](images/offresOVH/1.PNG) | ![offre 2](images/offresOVH/2.PNG) | ![offre 3](images/offresOVH/3.PNG) | ![offre 4](images/offresOVH/4.PNG) |
+            | ![offre 1](images/offresOVH/1.PNG){ width=150 } | ![offre 2](images/offresOVH/2.PNG){ width=150 } | ![offre 3](images/offresOVH/3.PNG){ width=150 }| ![offre 4](images/offresOVH/4.PNG){ width=150 } |
 
         === "Bluehost"
 
-            ![bluehost logo](images/bluehost.png)
+            ![bluehost logo](images/bluehost.png){ width=200 }
             > [Bluehost](https://www.bluehost.com/) est une société d'hébergement Web appartenant à Endurance International Group. C'est l'un des 20 plus grands hébergeurs Web, hébergeant collectivement plus de 2 millions de domaines.
             **Source: Wikipedia[^4]**
             [^4]: [Wikipedia: Bluehost](https://en.wikipedia.org/wiki/Bluehost)
@@ -37,7 +37,7 @@
 
             |BASIC|PLUS|CHOICE PLUS|PRO|
             |:---:|:---:|:---:|:---:|
-            | ![offre 1](images/offresBluehost/1.PNG) | ![offre 2](images/offresBluehost/2.PNG) | ![offre 3](images/offresBluehost/3.PNG) | ![offre 4](images/offresBluehost/4.PNG) |
+            | ![offre 1](images/offresBluehost/1.PNG){ width=150 } | ![offre 2](images/offresBluehost/2.PNG){ width=150 } | ![offre 3](images/offresBluehost/3.PNG){ width=150 } | ![offre 4](images/offresBluehost/4.PNG){ width=150 } |
 
         === "Vous même"
 
@@ -70,7 +70,7 @@
 ### Branches Github
 
 !!!example "détails"
-    > Github a de base une branche "**main**", qui a pour rôle de branche principale
+    > Github a de base une branche "_main_", qui a pour rôle de branche principale
 
     1. Github lance l'intégration continue
     2. la commande `- run: mkdocs gh-deploy --force` transforme le markdown en HTML

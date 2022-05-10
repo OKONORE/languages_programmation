@@ -58,7 +58,7 @@ __*source: Wikipedia[^2]*__
 
 |Logiciel|Image|Dépôt Github|Contribueteurs|
 |:----:|:----:|:----:|:----:|
-| [VsCodium](https://vscodium.com/) | ![Vscodium](images/vscodium.png) | [Github](https://github.com/VSCodium/vscodium) | [Contributeurs](https://github.com/VSCodium/vscodium/graphs/contributors) |
+| [VsCodium](https://vscodium.com/) | ![Vscodium](images/vscodium.png){ width=100 } | [Github](https://github.com/VSCodium/vscodium) | [Contributeurs](https://github.com/VSCodium/vscodium/graphs/contributors) |
 
 !!!savoir "Tutoriel"
     ^^Pour plus de précision sur VSCodium, aller sur l'excellent site de [Monsieur Chambon](https://lyc-84-bollene.gitlab.io/chambon/)  à ce propos[^3]^^
