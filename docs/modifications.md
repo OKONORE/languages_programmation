@@ -15,6 +15,7 @@
     - Nav bar
         - Ajout de `- navigation.tracking` [documentation](https://squidfunk.github.io/mkdocs-material/setup/setting-up-navigation/#anchor-tracking)
     - Thème du site 
+        - [custom_dir: overrides](modifications.md#docsoverrides)
         - Couleurs
         - Logo sur l'onglet
         - logo sur le site
@@ -68,3 +69,9 @@
     - Admonitions
         - ajout de l'admonition "code"
         - ajout de l'admonition "savoir"
+
+## docs/overrides
+
+???+code "docs/css"
+    - ajouts de commentaires
+        - overrides/main.html

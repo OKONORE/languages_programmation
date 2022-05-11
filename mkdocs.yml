@@ -18,6 +18,7 @@ nav:
                                     # JUSTIFICATIONS
 theme:
     name: material
+    custom_dir: overrides
     font: false                     # RGPD ; pas de fonte Google
     language: fr                    # français
     logo: images/dark_logo.png
