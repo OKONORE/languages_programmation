@@ -25,6 +25,9 @@
         - FranceIOI
             - lien
             - logo
+        - Lichess
+            - lien
+            - [logo](http://127.0.0.1:8000/modifications/#docsoverridesicons)
     - Ajout du dépôt github
         - Changement du logo du dépôt sur le site (github logo)
 
@@ -72,6 +75,11 @@
 
 ## docs/overrides
 
-???+code "docs/css"
-    - ajouts de commentaires
+???+code "docs/overrides"
+    - ajouts de [commentaires](https://squidfunk.github.io/mkdocs-material/setup/adding-a-comment-system/)
         - overrides/main.html
+
+### docs/overrides/.icons
+
+???+code "docs/overrides/.icons"
+    - ajouts de `chess-pawn-regular.svg`
