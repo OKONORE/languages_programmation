@@ -1,3 +1,14 @@
+---
+template: commentaires.html
+description: "Présentation de la page web"
+
+tags:
+- introduction
+- programmation
+- lua
+- okonore
+---
+
 # Introduction: 📄 Langages de programmation
 
 ## Definition
