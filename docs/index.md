@@ -1,5 +1,4 @@
 ---
-template: commentaires.html
 description: "Présentation de la page web"
 
 tags:
