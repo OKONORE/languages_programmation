@@ -1,3 +1,4 @@
-# le langage 💻 Le lua
+# 💻 Le lua
 
-[vscode](index.md#vscodium) 
+**En avancement**
+
