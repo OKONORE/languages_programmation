@@ -131,3 +131,31 @@ $$
             ```
             Ici l'erreur est que les variables "a", "b" et "c" ne sont pas initialisées, et donc le print ne peux pas écrire le résultat demandé.
 
+### Listes
+
+- Ici nous allons voir un exemple pour envoyer chaque élements d'une liste dans la console
+
+!!!Note "Listes"
+
+    === "Code 1"
+        !!!Success "Réussite"
+            ```python linenums="1"
+            --8<-- "docs/scripts/python/listes/listes1.py"
+            ```
+            ```pycon
+            --8<-- "docs/scripts/python/listes/listes1console.py"
+            ```
+            Voici ici comment envoyer dans la console chaque élement d'une liste donnée.
+    
+    === "Code 2"
+        !!!Success "Réussite"
+            ```python linenums="1"
+            --8<-- "docs/scripts/python/listes/listes2.py"
+            ```
+            ```pycon
+            --8<-- "docs/scripts/python/listes/listes2console.py"
+            ```
+            Ici, le programme fonctionne aussi, car la liste est donné directement dans la boucle for, sans être dans une variable, le code est moins clair.
+
+Maintenant que nous avons vu les bases des élements python, nous allons pouvoir les comparer au lua
+[💻 Le lua](lua.fr.md){ .md-button }
