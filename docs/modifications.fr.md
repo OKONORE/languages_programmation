@@ -40,7 +40,7 @@
 ### Support multi-langues
 ???+code "Support multi-langues"
     - Langues:
-        - Support [Français](index.fr.md)
+        - Support [Français](index.md)
         - Support [Anglais](index.en.md)
     - Ajout d'un selecteur de langues dans la barre du haut
         - Choix Français
