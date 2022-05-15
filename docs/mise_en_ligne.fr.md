@@ -41,10 +41,10 @@
 
         === "Vous même"
 
-        !!!tip "Info"
-            Effectivement, vous pouvez vous même héberger un site web chez vous. Il vous suffit pour ça d'avoir une vielle machine/ordinateur, disponible en permanence, et de paramétrer  votre connection pour accepter les requêtes exterieures.
-        !!!savoir "tutoriel"
-            Voici un tutoriel pour faire cela: [Tutoriel](https://web.developpez.com/cours/serveur-web-chez-soi/#:~:text=Solution%20simple%20%3A%20vous%20passez%20par,IP%20de%20votre%20connexion%20Internet.)
+            !!!tip "Info"
+                Effectivement, vous pouvez vous même héberger un site web chez vous. Il vous suffit pour ça d'avoir une vielle machine/ordinateur, disponible en permanence, et de paramétrer  votre connection pour accepter les requêtes exterieures.
+            !!!savoir "tutoriel"
+                Voici un tutoriel pour faire cela: [Tutoriel](https://web.developpez.com/cours/serveur-web-chez-soi/#:~:text=Solution%20simple%20%3A%20vous%20passez%20par,IP%20de%20votre%20connexion%20Internet.)
 
 ### Github/Gitlab
 
