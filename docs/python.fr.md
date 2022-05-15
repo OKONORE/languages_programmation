@@ -1,4 +1,4 @@
-# Le langage 🐍 Python
+# 🐍 Le Python
 
 ## Définition
 
@@ -130,3 +130,4 @@ $$
             --8<-- "docs/scripts/python/delta/delta3console.py"
             ```
             Ici l'erreur est que les variables "a", "b" et "c" ne sont pas initialisées, et donc le print ne peux pas écrire le résultat demandé.
+

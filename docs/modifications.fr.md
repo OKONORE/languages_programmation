@@ -15,7 +15,7 @@
     - Nav bar
         - Ajout de `- navigation.tracking` [documentation](https://squidfunk.github.io/mkdocs-material/setup/setting-up-navigation/#anchor-tracking)
     - Thème du site 
-        - [custom_dir: overrides](modifications.md#docsoverrides)
+        - [custom_dir: overrides](modifications.fr.md#docsoverrides)
         - Couleurs
         - Logo sur l'onglet
         - logo sur le site
@@ -27,9 +27,28 @@
             - logo
         - Lichess
             - lien
-            - [logo](http://127.0.0.1:8000/modifications/#docsoverridesicons)
+            - [logo](https://fontawesome.com/icons/chess-pawn?s=solid)
     - Ajout du dépôt github
         - Changement du logo du dépôt sur le site (github logo)
+
+### Extensions
+???+code "Extensions"
+    - Ajout de la barre de recherche
+    - auto_title_map:
+        - Ajout `"Lua" : "💻 Script LUA"`
+
+### Support multi-langues
+???+code "Support multi-langues"
+    - Langues:
+        - Support [Français](index.fr.md)
+        - Support [Anglais](index.en.md)
+    - Ajout d'un selecteur de langues dans la barre du haut
+        - Choix Français
+        - Choix Anglais
+
+### Extra
+???+code "Extra"
+    - styles CSS
 
 ## Plugins
 
@@ -38,7 +57,9 @@
         - > Plugin permettant d'ajouter des vidéos
     - Ajout du plugin video "[mkdocs-git-revision-date-plugin](https://github.com/zhaoterryy/mkdocs-git-revision-date-plugin)"
         - > Plugin permettant d'ajouter la date de modification de la page en bas de la page
-    - Ajout de la barre de recherche
+    - Ajout du plugin "[i18n](https://pypi.org/project/mkdocs-i18n/)" (pour le support multi-langues)
+        - > permet de créer une "division" du site par langues, isolant les langues non sélectionées
+
 
 ### Options Plugins
 
@@ -55,9 +76,10 @@
 ???+code "ci.yml"
     - passage du modèle [gitlab à un modèle github](https://squidfunk.github.io/mkdocs-material/publishing-your-site/#with-github-actions)
     - Modification pour permettre l'hébergement
-        - voir [Mise en ligne](mise_en_ligne.md)
+        - voir [Mise en ligne](mise_en_ligne.fr.md)
     - script
-        - ajout de ```python -m pip install mkdocs-video```
+        - ajout de ```- run: pip install mkdocs-video```
+        - ajout de ```- run: pip install mkdocs-i18n```
 
 ## docs/scripts
 

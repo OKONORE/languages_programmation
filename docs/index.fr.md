@@ -1,14 +1,8 @@
 ---
 description: "Présentation de la page web"
-
-tags:
-- introduction
-- programmation
-- lua
-- okonore
 ---
-
-# Introduction: 📄 Langages de programmation
+ 
+# 📄 Introduction
 
 ## Definition
 
@@ -74,22 +68,30 @@ __*source: Wikipedia[^2]*__
     ^^Pour plus de précision sur VSCodium, aller sur l'excellent site de [Monsieur Chambon](https://lyc-84-bollene.gitlab.io/chambon/)  à ce propos[^3]^^
     [^3]: [Choisir un éditeur: Mr.Chambon](https://lyc-84-bollene.gitlab.io/chambon/2-%C3%89diteurs/0-index/)
 
-## Ce que nous allons voir 
+## Programme
+
+### Ce que nous allons voir 
 
 !!!note "Langages"
     Dans ce site réalisé entièrement en Markdown avec l'outil Mkdocs[^4], nous verrons quelques exemples de languages de programmation ainsi que leur utilisation et leur utilité.
     Nous verrons donc:
     [^4]: [Mkdocs](https://www.mkdocs.org/)
 
-    1. [🐍 Le Python](python.md){ .md-button }
-    2. [💻 Le lua](lua.md){ .md-button }
+    1. [🐍 Le Python](python.fr.md){ .md-button }
+    2. [💻 Le lua](lua.fr.md){ .md-button }
 
-## Infos supplémentaires
+### Infos supplémentaires
 
 !!!note "Infos supplémentaires"
     Ici vous pourrez voir quelles sont le modification apportées en détails sur le site ainsi que la méthode de mise en ligne du site
 
-    1. [⚙️ Mise en ligne](mise_en_ligne.md){ .md-button }
-    2. [🔨 Modifications](modifications.md){ .md-button }
+    1. [⚙️ Mise en ligne](mise_en_ligne.fr.md){ .md-button }
+    2. [🔨 Modifications](modifications.fr.md){ .md-button }
 
+### Commentaires
+
+!!!note "Commentaires"
+    Vous pourrez finalement laisser un commentaire à propos de mon site
+
+    1. [💬 Commentaires](commentaires.fr.md){ .md-button }
 

@@ -9,12 +9,18 @@ copyright: |
 # Modifier le copyright à votre goût
 
 nav:
-    - 📄 Introduction: index.md
-    - 🐍 Le Python: python.md
-    - 💻 Le lua: lua.md
-    - ⚙️ Mise en ligne: mise_en_ligne.md
-    - 🔨 Modifications: modifications.md
-    - 💬 Commentaires: commentaires.md
+    - index.fr.md
+    - index.en.md
+    - python.fr.md
+    - python.en.md
+    - lua.fr.md
+    - lua.en.md
+    - mise_en_ligne.fr.md
+    - mise_en_ligne.en.md
+    - modifications.fr.md
+    - modifications.en.md
+    - commentaires.fr.md
+    - commentaires.en.md
 
                                     # JUSTIFICATIONS
 theme:
@@ -22,6 +28,7 @@ theme:
     custom_dir: overrides
     font: false                     # RGPD ; pas de fonte Google
     language: fr                    # français
+    direction: ltr
     logo: images/dark_logo.png
     favicon: images/dark_logo.png
     icon:
@@ -50,9 +57,19 @@ theme:
         - navigation.tracking
 
 plugins:
-    - mkdocs-video:                   # plugin pour ajouter des videos
-        video_autoplay: False
-    - search
+  - mkdocs-video:                   # plugin pour ajouter des videos
+      video_autoplay: False
+  - search
+  - i18n:
+      languages:
+        fr: "Français"
+        en: "English"
+      default_language: 'fr'
+      no_translation:
+        fr: "Cette page n'est pas traduite en Français."
+        en: "This page isn't translated to English."
+
+
 markdown_extensions:
     - meta
     - abbr
@@ -99,10 +116,10 @@ markdown_extensions:
 extra:
     alternate:
       - name: French
-        link: 
+        link: ""
         lang: fr
       - name: English
-        link: /en/
+        link: ""
         lang: en
     social:
         - icon: fontawesome/brands/github # ou autre
@@ -113,6 +130,7 @@ extra:
           link: mailto:okonore.video@gmail.com
         - icon: chess-pawn-regular # ou autre
           link: https://lichess.org/@/OKONORE
+          
 extra_javascript:
   - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
 
