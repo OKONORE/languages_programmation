@@ -1,3 +1,3 @@
-Redirection vers la page `/index.fr`
+Redirection vers la page `/index.fr`...
 
-<meta http-equiv="Refresh" content="0; url='/index.fr" />
+<meta http-equiv="Refresh" content="0; url='../index.fr" />
