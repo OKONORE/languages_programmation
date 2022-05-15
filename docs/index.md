@@ -60,7 +60,7 @@ __*source: Wikipedia[^2]*__
 
 > [VsCodium](https://vscodium.com/) est la version libre et open source de [Visual Studio Code](https://code.visualstudio.com/)
 
-|Logiciel|Image|Dépôt Github|Contribueteurs|
+|Logiciel|Image|Dépôt Github|Contributeurs|
 |:----:|:----:|:----:|:----:|
 | [VsCodium](https://vscodium.com/) | ![Vscodium](images/vscodium.png){ width=100 } | [Github](https://github.com/VSCodium/vscodium) | [Contributeurs](https://github.com/VSCodium/vscodium/graphs/contributors) |
 
