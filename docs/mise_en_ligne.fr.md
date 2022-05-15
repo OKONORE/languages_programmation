@@ -64,7 +64,7 @@
     3. Github héberge votre page web issue de vos fichiers Mkdocs
 
     ```mermaid
-    --8<-- "docs/scripts/mermaid/github_deploy"
+    --8<-- "docs/scripts/mermaid/github_deploy.fr"
     ```
 
 ### Branches Github
@@ -79,7 +79,7 @@
     5. Le site est disponible à: `<pseudonyme>.github.io/<nom_dépôt>`
 
     ```mermaid
-    --8<-- "docs/scripts/mermaid/branches_github"
+    --8<-- "docs/scripts/mermaid/branches_github.fr"
     ```
 
 *[HTML]: Hyper Text Markup Language

@@ -64,7 +64,7 @@
     3. Github hosts your web page from your Mkdocs files
 
     ```mermaid
-    --8<-- "docs/scripts/mermaid/github_deploy"
+    --8<-- "docs/scripts/mermaid/github_deploy.en"
     ```
 
 !!!example "details"
@@ -77,7 +77,7 @@
     5. The site is available at: `<pseudonym>.github.io/<deposit_name>`
 
     ```mermaid
-    --8<-- "docs/scripts/mermaid/branches_github"
+    --8<-- "docs/scripts/mermaid/branches_github.en"
     ```
 
 *[HTML]: Hyper Text Markup Language
