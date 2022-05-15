@@ -9,7 +9,7 @@ copyright: |
 # Modifier le copyright à votre goût
 
 nav:
-    - index.md
+    - index.fr.md
     - index.en.md
     - python.fr.md
     - python.en.md
@@ -130,7 +130,6 @@ extra:
           link: mailto:okonore.video@gmail.com
         - icon: chess-pawn-regular # ou autre
           link: https://lichess.org/@/OKONORE
-          
 extra_javascript:
   - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
 
