@@ -9,7 +9,7 @@ copyright: |
 # Modifier le copyright à votre goût
 
 nav:
-    - index.fr.md
+    - index.md
     - index.en.md
     - python.fr.md
     - python.en.md

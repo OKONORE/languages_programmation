@@ -87,6 +87,7 @@
     - Tout les scripts affichés sont stockés dans ```docs/scripts```
         - Scripts mermaid dans ```docs/scripts/mermaid```
         - Scripts python dans ```docs/scripts/python```
+        - Scipts lua dans ```docs/scripts/lua```
 
 ## docs/css
 

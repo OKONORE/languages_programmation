@@ -1,0 +1,27 @@
+Pour avoir acccès à mon site, il y a deux moyens:
+
+- - - - - - - - -
+
+1. Le site web: https://okonore.github.io/languages_programmation/
+
+- - - - - - - - -
+
+2. Mkdocs serve
+
+    Installer les plugins:
+
+        pip install mkdocs-video
+        pip install mkdocs-i18n
+
+
+
+Pour l'intégration sur votre site, je pense que cela va être très compliqué 
+étant donné qu'il y a plusieurs fonctionalitées avancées (support francais 
+et anglais, css, overrides, etc ==> Tout est dans la page 'Changements')
+
+Si vous y arrivez, je vous y autorise, il n'y a pas de problème.
+Sinon vous pouvez juste indiquer le lien du site pour vous faire
+gagnez du temps, comme ça toutes les fonctions seront bien
+préservées de la migration vers votre site.
+
+Bonne visite Monsieur Chambon.
