@@ -6,12 +6,12 @@ description: "Présentation de la page web"
 
 ## Definition
 
-???+tldr "Définition courte"
+???+note "Définition courte"
     Un langage de programmation est une notation conventionnelle destinée à formuler des algorithmes et produire des programmes informatiques qui les appliquent.
 
 ---
 
-???note "Définition longue"
+???tldr "Définition longue"
 
     Un **langage de [programmation](https://fr.wikipedia.org/wiki/Programmation_informatique)** est une notation conventionnelle destinée à formuler des [algorithmes](https://fr.wikipedia.org/wiki/Algorithme) et produire des [programmes informatiques](https://fr.wikipedia.org/wiki/Programme_informatique) qui les appliquent. D'une manière similaire à une langue naturelle, un langage de programmation est composé d'un [alphabet](https://fr.wikipedia.org/wiki/Alphabet), d'un [vocabulaire](https://fr.wikipedia.org/wiki/Vocabulaire), de règles de [grammaire](https://fr.wikipedia.org/wiki/Grammaire), de [significations](https://fr.wikipedia.org/wiki/Sens_(linguistique)), mais aussi d'un [environnement de traduction](https://fr.wikipedia.org/wiki/Environnement_(informatique)) censé rendre sa [syntaxe](https://fr.wikipedia.org/wiki/Syntaxe) compréhensible par la machine.
 

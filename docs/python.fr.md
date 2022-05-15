@@ -2,15 +2,15 @@
 
 ## Définition
 
-!!!tldr "Définition"
+!!!note "Définition"
     Le Python est un langage de programmation interprété, multi-paradigme et multiplateformes. Il favorise la programmation impérative structurée, fonctionnelle et orientée objet. Il est doté d'un typage dynamique fort, d'une gestion automatique de la mémoire par ramasse-miettes et d'un système de gestion d'exceptions.
-    __*source: Wikipedia[^1]*__
-    [^1]: [Wikipedia : Definition](https://fr.wikipedia.org/wiki/Python_(langage))
+    __*source: Wikipedia[^wiki1]*__
+    [^wiki1]: [Wikipedia : Definition](https://fr.wikipedia.org/wiki/Python_(langage))
 
 - [X] Orienté Fonctionelle    
 - [X] Orientée Objet
 
-!!!tldr "Informations"
+!!!info "Informations"
     Nous présentons rapidement le pyton afin d'avoir un comparatif avec les langages qui seront présentés après.
     
 ## Exemples de codes

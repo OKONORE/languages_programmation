@@ -85,8 +85,9 @@ markdown_extensions:
         auto_title: true
         auto_title_map:
             "Python": "🐍 Script Python"
-            "Lua" : "💻 Script LUA"
+            "Lua" : "💻 Script lua"
             "Python Console Session": "🐍 Console Python"
+            "Bash": "💻 Console lua"
             "Text Only": "📋 Texte"
             "E-mail": "📥 Entrée"
             "Text Output": "📤 Sortie"

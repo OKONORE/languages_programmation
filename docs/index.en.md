@@ -6,12 +6,12 @@ description: "Presentation of the web page"
 
 ## Definition
 
-???+tldr "Short definition"
+???+note "Short definition"
     A programming language is a conventional notation for formulating algorithms and producing computer programs that apply them.
 
 ---
 
-???note "long definition"
+???tldr "long definition"
 
     A **[programming](https://fr.wikipedia.org/wiki/Programmation_informatique)** language is a conventional notation for formulating [algorithms](https://fr.wikipedia.org/wiki/Algorithme) and produce [computer programs](https://fr.wikipedia.org/wiki/Programme_informatique) that apply them. In a way similar to a natural language, a programming language is composed of an [alphabet](https://fr.wikipedia.org/wiki/Alphabet), a [vocabulary](https://fr.wikipedia.org/wiki/Vocabulaire), [grammar](https://fr.wikipedia.org/wiki/Grammaire), [meanings](https://fr.wikipedia.org/wiki/Sens_(linguistics)), but also a [translation environment](https://fr.wikipedia.org/wiki/Environnement_(computer science)) supposed to make its [syntax](https://fr.wikipedia.org/wiki/Syntaxe) understandable by the machine.
 

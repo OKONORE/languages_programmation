@@ -9,3 +9,12 @@ template: commentaires.html
 
 !!!warning "Inter-langues"
     Attention, les commentaires sont triées par langues dans le site, vous commenterez donc uniquement dans la langue sélectionnée. Si vous avez choisi le Français, vos commentaires ne seront que parmi des commentaires Français.
+
+!!!bug "Bug"
+    Parfois, la fenêtre de commentaire ne se charge pas, dans ce cas appuyer sur:
+
+    ++f5++ 
+
+    **ou**  
+    
+    ++ctrl++ + ++r++

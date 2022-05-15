@@ -2,7 +2,7 @@
 
 ## Definition
 
-!!!tldr "Definition"
+!!!note "Definition"
     Python is an interpreted, multi-paradigm, cross-platform programming language. It promotes structured, functional and object-oriented imperative programming. It has strong dynamic typing, automatic memory management by garbage collection and an exception handling system.
     __*source: Wikipedia[^wiki1]*__
     [^wiki1]: [Wikipedia : Definition](https://fr.wikipedia.org/wiki/Python_(langage))
@@ -10,7 +10,7 @@
 - [X] Functional Oriented    
 - [X] Object Oriented
 
-!!!tldr "Information"
+!!!info "Information"
     We quickly introduce pyton in order to have a comparison with the languages that will be presented afterwards.
 
 ## Sample codes
