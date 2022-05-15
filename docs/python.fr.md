@@ -10,8 +10,9 @@
 - [X] Orienté Fonctionelle    
 - [X] Orientée Objet
 
-!!!tldr "Info"
+!!!tldr "Informations"
     Nous présentons rapidement le pyton afin d'avoir un comparatif avec les langages qui seront présentés après.
+    
 ## Exemples de codes
 
 ### HelloWorld
