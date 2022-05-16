@@ -241,14 +241,15 @@ $$
 ## Projets personnels en lua
 
 !!!info "Projets"
-    J'ai personellement des projects qui sont crées en lua:
+    J'ai personnellement des projets qui sont créés en lua.
 
 ### Hestia RolePlay
 
 !!!quote "Hestia RolePlay"
 
     ![HestiaRP logo](images/logo_hestia.webp){ align=right }
-    Depuis plusieurs années, je m'intéresse à la programmation de serveurs multijoueurs en lua sur Garry's Mod.
+    Depuis plusieurs années, je m'intéresse à la programmation de serveurs multijoueurs en lua sur Garry's Mod[^gmod].
+    [^gmod]: [Facepunch](https://gmod.facepunch.com/) & [Wikipedia: Garry's Mod](https://en.wikipedia.org/wiki/Garry%27s_Mod)
 
     Depuis peu, des amis et moi avons commencé l'élaboration d'un serveur multijoueur ensemble.
     Je m'occupe personellement de la programmation de tout le serveur.
@@ -263,26 +264,62 @@ $$
 
     [https://wiki.facepunch.com/gmod](https://wiki.facepunch.com/gmod)
 
-### Mods Garry's Mod
-
 ### Crosshair HUD
 
-!!!quote "Hestia RolePlay"
-    **J'ai, pour mon serveur développé plusieurs scripts. Celui ci est un script assez simple permettant d'avoir un pointeur personalisable sur notre écran dans le jeu Garry's Mod**
+!!!quote "Crosshair HUD"
+    J'ai, pour mon serveur, développé plusieurs scripts. Celui ci est un script assez simple permettant d'avoir un pointeur personalisable sur notre écran dans le jeu Garry's Mod[^gmod].
     
     | Menu de configuration | Rendu du pointeur |
     |:---:|:---:|
     | ![image menu](images/menu_crosshair.PNG){ width=415 } | ![image menu](images/rendu_crosshair.PNG){ width=500 } |
 
-!!!info "Dépôt"
-    Voici le dépot de ce mod: [crosshair_gmod](https://github.com/OKONORE/crosshair_gmod)
+!!!depot "Dépôt"
+    :github-brands: Voici le dépot de ce mod: [crosshair_gmod](https://github.com/OKONORE/crosshair_gmod)
+    { align=center }
 
 ### Mod de modération
 
-!!!quote "Hestia RolePlay"
-    **J'ai aussi un début de mod permettant de faire de la modération sur le serveur, mais aucuns aperçu ne pourra être donné maintenant, car le mod n'est pas assez avancé mettant en jeu des bases de données SQL, des API et des bots (peut-être dans une future mise à jour du site)**
+!!!quote "Système de Modération"
+    J'ai aussi un début de mod permettant de faire de la modération sur le serveur, mais aucuns aperçu ne pourra être donné maintenant, car le mod n'est pas assez avancé mettant en jeu des bases de données SQL, des API et des bots (peut-être dans une future mise à jour du site)
     
 ### Interface de personnage
 
+!!!quote "CleanHUD"
+
+    !!!info "Informations"
+        ![CleanHUD logo](images/rendu_HUD/logo_cleanhud.png){ align=right width=500}
+        Le HUD que j'ai développé, est une interface permettant d'avoir des informations principales de son personnages affichés sur son écran.
+    
+    ???+danger "images"
+        En voici des images (les images sont en anglais car le public visé était anglais ; images réalisés par un amis):
+
+        | Image 1 |
+        |:---:|
+        |![CleanHUD image 1](images/rendu_HUD/1.png)|
+        | **Image 2** |
+        |![CleanHUD image 2](images/rendu_HUD/2.png)|
+        | **Image 3** |
+        |![CleanHUD image 3](images/rendu_HUD/3.png)|
+        | **Image 4** |
+        |![CleanHUD image 4](images/rendu_HUD/4.png)|
+
+        
+    
+    !!!depot "Dépôt" 
+        :github-brands: Voici le dépot de ce mod: [CleanHUD](https://github.com/OKONORE/CleanHUD)
+        { align=center }
+        
+        P.S: Ajouté pour l'occasion
+        { align=center }
 
 ### Mod Factorio
+
+!!!quote "FactoWorldWars"
+    Ce mod est cette fois un mod de Factorio[^factorio].
+    Ce mod a pour objectif de transformer Factorio en jeu de stratégie et logistique.
+    Il est **^^très loin^^** d'être fini, et est pour l'instant mit de côté. Il est développé par moi et un autre ami.
+    [^factorio]: [Factorio](https://www.factorio.com/) & [Wikipedia: Factorio](https://en.wikipedia.org/wiki/Factorio)
+
+    [FactoWorld Wars](https://mods.factorio.com/mod/Factoworldwars)
+
+*[HUD]: Head-up display

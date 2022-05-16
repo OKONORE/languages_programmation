@@ -39,12 +39,12 @@ __*source: Wikipedia[^2]*__
 ---
 
 ???+info "Exemples"
-    === "Un jeu d'échec"
+    === "Un jeu d'échec (Français)"
         ![type:video](https://www.youtube-nocookie.com/embed/8y6szvqiVTw)
 
         Ces 2 personnes se sont lancées le projet de faire un jeu d'échecs en JavaScript en 1 semaine.
 
-    === "Snake"
+    === "Snake (Anglais)"
         ![type:video](https://www.youtube-nocookie.com/embed/rbasThWVb-c)
         Cette personnes s'est lancé le défi de faire un jeu Snake en 5 minutes en utilisant Python
 

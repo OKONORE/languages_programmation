@@ -2,84 +2,123 @@
 
 ## mkdocs.yml
 
-### Infos site
+### Site info
 
-???+code "Infos site"
-    - Nom du site
-    - URL du site
-    - Description du Site
+???+code "Site info"
+    - Name of the site
+    - Site URL
+    - Site description
     - Copyright
-        - Lien de redirection sur l'image de copyright
-        - Image de copyright (ne fonctionne que sur la page Index)
-        - Lien de redirection sur mon nom
+        - Redirect link to copyright image
+        - Copyright image (only works on the Index page)
+        - Redirect link to my name
     - Nav bar
-        - Ajout de `- navigation.tracking` [documentation](https://squidfunk.github.io/mkdocs-material/setup/setting-up-navigation/#anchor-tracking)
-    - Thème du site 
-        - [custom_dir: overrides](modifications.fr.md#docsoverrides)
-        - Couleurs
-        - Logo sur l'onglet
-        - logo sur le site
+        - Added `navigation.tracking` [documentation](https://squidfunk.github.io/mkdocs-material/setup/setting-up-navigation/#anchor-tracking)
+    - Theme of the site 
+        - custom_dir: [overrides](modifications.en.md#docsoverrides)
+        - Colors
+        - Logo on the tab
+        - logo on the site
     - Social
         - github
-            - lien
+            - link
         - FranceIOI
-            - lien
+            - link
             - logo
         - Lichess
-            - lien
+            - link
             - [logo](https://fontawesome.com/icons/chess-pawn?s=solid)
-    - Ajout du dépôt github
-        - Changement du logo du dépôt sur le site (github logo)
+    - Adding the github repository
+        - Changed the logo of the repository on the site (github logo)
+
+### Extensions
+???+code "Extensions"
+    - Adding the search bar
+    - auto_title_map:
+        - Added `"Lua": "💻 LUA script"`
+        - Added `"Bash": "💻 Console lua"`
+    - pymdownx.emoji:
+        - 
+    ```
+    options:
+        custom_icons:
+        - overrides/.icons
+    ```
+        
+
+### Multi-language support
+???+code "Multi-language support"
+    - Languages:
+        - Support [French](index.md)
+        - Support [English](index.en.md)
+    - Add a language selector in the top bar
+        - French choice
+        - English choice
+
+### Extra
+???+code "Extra"
+    - CSS styles
 
 ## Plugins
 
 ???+code "Plugins"
-    - Ajout du plugin video "[mkdocs_video](https://github.com/soulless-viewer/mkdocs-video)"
-        - > Plugin permettant d'ajouter des vidéos
-    - Ajout du plugin video "[mkdocs-git-revision-date-plugin](https://github.com/zhaoterryy/mkdocs-git-revision-date-plugin)"
-        - > Plugin permettant d'ajouter la date de modification de la page en bas de la page
-    - Ajout de la barre de recherche
+    - Added video plugin "[mkdocs_video](https://github.com/soulless-viewer/mkdocs-video)"
+        - > Plugin to add videos
+    - Added video plugin "[mkdocs-git-revision-date-plugin](https://github.com/zhaoterryy/mkdocs-git-revision-date-plugin)"
+        - > Plugin to add the date of modification of the page at the bottom of the page
+    - Added plugin "[i18n](https://pypi.org/project/mkdocs-i18n/)" (for multi-language support)
+        - > Allows to create a "division" of the site by languages, isolating the unselected languages
 
-### Options Plugins
 
-???+code "Options Plugins"
-    - Modifications d'extension 
+### Plugins options
+
+???+code "Plugin options"
+    - Extension changes 
         - "auto_title_map"
-            - Noms pour le LUA, Javascript
+            - Names for LUA, Javascript
         - "pymdownx.tasklist"
-        - custom_checkbox:    true
+        - custom_checkbox: true
         - clickable_checkbox: false
 
 ## ci.yml
 
 ???+code "ci.yml"
-    - passage du modèle [gitlab à un modèle github](https://squidfunk.github.io/mkdocs-material/publishing-your-site/#with-github-actions)
-    - Modification pour permettre l'hébergement
-        - voir [Mise en ligne](mise_en_ligne.fr.md)
+    - change from [gitlab to github](https://squidfunk.github.io/mkdocs-material/publishing-your-site/#with-github-actions)
+    - Modification to allow hosting
+        - see [Putting online](mise_en_ligne.fr.md)
     - script
-        - ajout de ```python -m pip install mkdocs-video```
+        - added `- run: pip install mkdocs-video`
+        - added `- run: pip install mkdocs-i18n`
 
 ## docs/scripts
 
 ???+code "docs/scripts"
-    - Tout les scripts affichés sont stockés dans ```docs/scripts```
-        - Scripts mermaid dans ```docs/scripts/mermaid```
-        - Scripts python dans ```docs/scripts/python```
+    - All displayed scripts are stored in `docs/scripts`
+        - mermaid scripts in `docs/scripts/mermaid`
+        - Python scripts in `docs/scripts/python`
+        - Lua scripts in `docs/scripts/lua`
 
 ## docs/css
 
 ???+code "docs/css"
     - Admonitions
-        - ajout de l'admonition "code"
-        - ajout de l'admonition "savoir"
+        - added admonition "code
+            - ???code
+        - added admonition "knowledge
+            - ???savoir
+        - added admonition "depot
+            - ???depot
 
 ## docs/overrides
 
 ???+code "docs/overrides"
-    - ajouts de [commentaires](https://squidfunk.github.io/mkdocs-material/setup/adding-a-comment-system/)
-        - overrides/main.html
+    - additions of [comments](https://squidfunk.github.io/mkdocs-material/setup/adding-a-comment-system/)
+        - overlays/main.html
 
 ### docs/overrides/.icons
 
 ???+code "docs/overrides/.icons"
-    - ajouts de `chess-pawn-regular.svg`
+    - added `chess-pawn-regular.svg`
+        - :chess-pawn-regular:
+    - added `github-brands.svg`
+        - :github-brands:

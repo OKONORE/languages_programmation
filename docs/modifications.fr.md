@@ -36,6 +36,15 @@
     - Ajout de la barre de recherche
     - auto_title_map:
         - Ajout `"Lua" : "💻 Script LUA"`
+        - Ajout `"Bash": "💻 Console lua"`
+    - pymdownx.emoji:
+        - 
+    ```
+    options:
+        custom_icons:
+        - overrides/.icons
+    ```
+        
 
 ### Support multi-langues
 ???+code "Support multi-langues"
@@ -61,7 +70,7 @@
         - > permet de créer une "division" du site par langues, isolant les langues non sélectionées
 
 
-### Options Plugins
+### Options plugins
 
 ???+code "Options Plugins"
     - Modifications d'extension 
@@ -94,7 +103,11 @@
 ???+code "docs/css"
     - Admonitions
         - ajout de l'admonition "code"
+            - ???code
         - ajout de l'admonition "savoir"
+            - ???savoir
+        - Ajout de l'admonition "depot"
+            - ???depot
 
 ## docs/overrides
 
@@ -105,4 +118,7 @@
 ### docs/overrides/.icons
 
 ???+code "docs/overrides/.icons"
-    - ajouts de `chess-pawn-regular.svg`
+    - Ajout de `chess-pawn-regular.svg`
+        - :chess-pawn-regular:
+    - Ajout `github-brands.svg`
+        - :github-brands:
