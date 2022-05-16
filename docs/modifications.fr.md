@@ -122,3 +122,5 @@
         - :chess-pawn-regular:
     - Ajout `github-brands.svg`
         - :github-brands:
+    - Ajout `discord-brands.svg`
+        - :discord-brands:

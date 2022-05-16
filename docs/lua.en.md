@@ -291,7 +291,7 @@ $$
         The HUD I developed is an interface to have the main information of his characters displayed on his screen.
     
     ???+danger "images"
-        Here are some images (the images are in English because the target audience was English; images made by a friend):
+        Here are some images (the images are in English because the target audience was English; images made by **SNDS :discord-brands: `SNDS#2729`**):
 
         | Image 1 |
         |:---:|

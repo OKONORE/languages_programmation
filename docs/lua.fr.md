@@ -291,7 +291,7 @@ $$
         Le HUD que j'ai développé, est une interface permettant d'avoir des informations principales de son personnages affichés sur son écran.
     
     ???+danger "images"
-        En voici des images (les images sont en anglais car le public visé était anglais ; images réalisés par un amis):
+        En voici des images (les images sont en anglais car le public visé était anglais ; images réalisés par **SNDS :discord-brands: `SNDS#2729`**):
 
         | Image 1 |
         |:---:|
