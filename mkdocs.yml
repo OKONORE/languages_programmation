@@ -2,7 +2,7 @@ site_name: Langages de Programmations
 edit_uri: tree/main/docs/
 repo_url: https://github.com/OKONORE/languages_programmation
 repo_name: OKONORE languages_programmation
-site_description: Les languages de programmations
+site_description: les langages de programmations
 docs_dir: docs
 copyright: |
     Copyright © <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank" rel="noopener"><img src="../images/copyright.png"></a> </a> 2022 <a href="https://github.com/OKONORE" target="_blank" rel="noopener"><b>Mathieu THOS<b/></a>
