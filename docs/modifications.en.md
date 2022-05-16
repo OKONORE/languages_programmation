@@ -113,7 +113,10 @@
 
 ???+code "docs/overrides"
     - additions of [comments](https://squidfunk.github.io/mkdocs-material/setup/adding-a-comment-system/)
-        - overlays/main.html
+        - `overrides/commentaires.html`
+    - additions of 404 page
+        - `overrides/404.html`
+    
 
 ### docs/overrides/.icons
 
