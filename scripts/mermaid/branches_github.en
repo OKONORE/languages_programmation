@@ -1,0 +1,16 @@
+flowchart LR
+    
+    depot[(Github repository)] --- main & ghp
+    
+    subgraph main [Main Branch]
+    Main{Main} -.- main1{{Mkdocs files}}
+    Main --Folders--> r2[/ /root /] & d2[/ /docs /]
+    end
+    subgraph ghp [gh-pages branch]
+        gh-pages{gh-pages} -.- gh-pages1{{HTML Files}}
+        gh-pages --Folders--> r1[/ /root /] & d1[/ /docs /]
+    end
+    main ===> Build{Build} ===> ghp
+
+    d1 & d2 & r2 --> non[not used for website]
+    r1 --> oui[used for website]
