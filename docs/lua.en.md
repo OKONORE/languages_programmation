@@ -75,11 +75,11 @@ __*source: Wikipedia[^wiki1]*__
                 --8<-- "docs/scripts/python/helloworld/helloworld2console.py"
                 ```
 
-### Boucles
+### Loops
 
-- Ici, nous allons voir comment faire une boucle qui envoi dans la console les chiffres de 0 à 10 inclus.
+- Here we will see how to make a loop that sends the numbers from 0 to 10 inclusive to the console.
 
-!!!Note "Ecrire `helloworld`"
+!!!Note "Write `helloworld`"
 
     === "Code 1"
         !!!Success "Success"
